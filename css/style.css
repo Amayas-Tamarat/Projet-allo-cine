@@ -1,0 +1,41 @@
+.div_header{
+    background-color: white;
+    color:red;
+    border-color: red;
+    border-style:double ;
+    margin:10px;
+}
+header{
+    display:flex;
+    height: 80px;
+    justify-content: space-between;
+}
+header>div>img{
+    height: 100%;
+    width: 100%;
+}
+body{
+    width:96%;
+    position: fixed;
+    left:2%;
+    right:2%;
+}
+
+section{
+    width:80%;
+    background-color: red;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    margin:20px;
+}
+.notation{
+    display:flex;
+}
+.notation>*{
+    margin:20px;
+}
+.container-fluid{
+    
+}
