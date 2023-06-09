@@ -29,10 +29,14 @@ section{
     display: flex;
     flex-direction: row;
     margin:20px;
+
 }
 .notation{
     display:flex;
 }
 .notation>*{
-    margin:20px;
+   padding:10px;
+}
+.container-fluid{
+    padding-top: 10px;
 }
