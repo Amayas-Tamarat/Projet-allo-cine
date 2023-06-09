@@ -36,3 +36,9 @@ section{
 .notation>*{
     margin:20px;
 }
+.popcorn{
+    max-width: 60px;
+    max-height: 192px;
+    width: auto;
+    height: auto;
+}
