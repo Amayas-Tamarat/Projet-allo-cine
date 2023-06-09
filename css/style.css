@@ -29,6 +29,7 @@ section{
     display: flex;
     flex-direction: row;
     margin:20px;
+    width:50%;
 
 }
 .notation{
@@ -37,14 +38,16 @@ section{
 .notation>*{
    padding:10px;
 }
-<<<<<<< HEAD
 .container-fluid{
     padding-top: 10px;
-=======
+}
 .popcorn{
     max-width: 60px;
     max-height: 192px;
     width: auto;
     height: auto;
->>>>>>> origin
+}
+main{
+    display: flex;
+    justify-content: center;
 }
