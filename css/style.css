@@ -37,6 +37,14 @@ section{
 .notation>*{
    padding:10px;
 }
+<<<<<<< HEAD
 .container-fluid{
     padding-top: 10px;
+=======
+.popcorn{
+    max-width: 60px;
+    max-height: 192px;
+    width: auto;
+    height: auto;
+>>>>>>> origin
 }
