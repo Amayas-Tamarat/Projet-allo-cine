@@ -1,8 +1,8 @@
 let title = []
-let plot
-let poster
-let meta
-let imdb
+let plot = []
+let poster = []
+let meta = []
+let imdb = []
 fetch("./data/moovies.json")
 .then(response => response.json())
 .then(data => {
@@ -14,8 +14,12 @@ fetch("./data/moovies.json")
         imdb = data[i].imdbRating;
         */
        title.push (data[i].Title)
+       plot.push (data[i].Plot)
+       poster.push (data[i].Poster)
+       meta.push (data[i].Metascore)
+       imdb.push (data[i].imdbRating)
     }
-    console.log(title);
+    console.log(title[1], plot[1]);
 }
 )
 
